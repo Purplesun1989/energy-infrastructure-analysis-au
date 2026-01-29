@@ -1,54 +1,52 @@
-UWA Business School Research Portfolio: Climate Risk & Biodiversity Analytics
-Project Overview
-This repository serves as a centralized research hub for my Year-Long Research Assistant (RA) Internship at the University of Western Australia (UWA) Business School. The portfolio integrates advanced data engineering, machine learning, and spatial analysis to address complex environmental and financial risks.
+# UWA Business School Research Portfolio: Climate Risk & ESG Data Science
 
-My work focuses on developing the technical infrastructure to quantify how climate and biodiversity risks propagate through global and domestic supply chains.
+## Project Overview
+This repository serves as a centralized research hub for my Year-Long **Research Assistant (RA) Internship** at the **University of Western Australia (UWA) Business School**. The portfolio integrates advanced data engineering, machine learning, and spatial analysis to address complex environmental and financial risks.
 
-Research Pillars
-Throughout this internship, my contributions are structured around four primary research initiatives:
+My work focuses on developing the technical infrastructure to quantify how **climate and biodiversity risks** propagate through global and domestic supply chains.
 
-Biodiversity Quality Metrics: Proposing and developing novel measures for biodiversity quality indices at the community level.
+---
 
-Climate Risk Disclosure Modeling: Implementing machine learning approaches to analyze company-level climate-related financial disclosures.
+## Research Pillars
 
-Supply Chain Propagation Analysis: Modeling the transmission of environmental risks through complex infrastructure networks, utilizing high-resolution sector data (e.g., energy, manufacturing).
+### 1. Climate Risk Disclosure Modeling
+Implementing **Natural Language Processing (NLP)** and machine learning approaches to analyze company-level climate-related financial disclosures. This involves quantifying the sentiment, transparency, and materiality of ESG reporting to assess corporate climate readiness.
 
-Industry-Level Risk Assessment: Assessing dependency and impact risks across diverse industrial sectors to inform ESG (Environmental, Social, and Governance) strategies.
+### 2. Supply Chain Propagation Analysis
+Modeling the transmission of environmental risks through complex infrastructure networks. By utilizing high-resolution sector data (e.g., energy, manufacturing), we simulate how localized disruptions impact broader economic systems and regional stability.
 
-Technical Capabilities & Workflow
+### 3. Biodiversity Quality Metrics
+Proposing and developing novel measures for **biodiversity quality indices** at the community level. This pillar bridges the gap between ecological health and financial asset valuation, providing empirical evidence for biodiversity dependency risks.
+
+### 4. Industry-Level Risk Assessment
+Assessing dependency and impact risks across diverse industrial sectors to inform **ESG (Environmental, Social, and Governance)** strategies. This research helps stakeholders understand sector-specific vulnerabilities in the face of the global energy transition.
+
+---
+
+## 🛠 Technical Capabilities & Workflow
 As the technical lead for data operations within these projects, I am responsible for the end-to-end data lifecycle:
 
-1. Automated Data Acquisition
-Development of robust web-scraping and API-integration tools for longitudinal data collection.
+### **Phase I: Automated Data Acquisition**
+* **Longitudinal Collection**: Development of robust web-scraping and API-integration tools for continuous data harvesting.
+* [cite_start]**Infrastructure Retrieval**: Curating extensive archives of historical operational data (e.g., natural gas production and pipeline flows) to support time-series analysis[cite: 2447, 2448].
 
-Retrieval of historical operational data (e.g., AEMO GBB datasets from 2018–present) to support time-series analysis.
+### **Phase II: Research-Grade Data Engineering**
+* **Data Cleaning & Normalization**: Standardizing disparate datasets (e.g., converting multi-state energy flows into consistent units like **Terajoules**) to ensure analytical integrity.
+* **High-Fidelity Modeling**: Preserving granular metadata (facility-level details, connection points) to allow for flexible multi-level aggregation without losing critical data variance.
 
-2. Research-Grade Data Engineering
-Data Cleaning & Normalization: Standardizing disparate datasets (e.g., energy flows in Terajoules) to ensure analytical consistency.
+### **Phase III: Quantitative Analysis & Visualization**
+* **Pattern Recognition**: Application of statistical and machine learning models to identify emerging risk patterns.
+* **Interactive Visualization**: Development of web tools and dashboards for **spatio-temporal visualization**, enabling researchers to interpret risk propagation effectively.
 
-High-Fidelity Modeling: Preserving granular metadata (facility-level details, connection points) to allow for flexible multi-level aggregation.
+---
 
-3. Quantitative Analysis & Visualization
-Application of statistical and machine learning models to identify risk patterns.
+## 📂 Repository Organization
+To maintain research integrity and scalability, the repository is organized by project modules:
 
-Development of interactive web tools and dashboards for spatio-temporal data visualization.
-
-Repository Organization
-To maintain research integrity, the repository is organized by project modules:
-
-Plaintext
-├── 01_Energy_Infrastructure/   # Current focus: Gas market & supply chain resilience
-├── 02_Biodiversity_Index/      # Quantifying community-level biodiversity metrics
-├── 03_Climate_ML_Disclosures/  # NLP and ML models for financial risk reporting
-├── 04_Supply_Chain_Risk/       # Propagation modeling and network analysis
-├── common_utils/               # Shared cleaning and visualization libraries
+```plaintext
+├── 01_Energy_Infrastructure/   # Focus: Gas market resilience & pipeline analytics
+├── 02_Biodiversity_Index/      # Focus: Community-level biodiversity quality metrics
+├── 03_Climate_ML_Disclosures/  # Focus: NLP models for financial reporting
+├── 04_Supply_Chain_Risk/       # Focus: Propagation modeling & network analysis
+├── common_utils/               # Shared libraries for cleaning & visualization
 └── .gitignore                  # Shielding large-scale research datasets
-Technical Stack
-Programming: Python (Primary), SQL.
-
-Frameworks: Pandas, NumPy, Scikit-learn, Matplotlib/Seaborn.
-
-Environment: PyCharm Professional, Git version control.
-
-About the Author
-Junhan Xu Undergraduate Student | AI & Big Data Specialization Research Assistant Intern, UWA Business School
